@@ -268,7 +268,7 @@ const CartPage = () => {
                 name="name" 
                 value={formData.name} 
                 onChange={handleInputChange}
-                placeholder="John Doe"
+                placeholder="Yasin protik"
                 required
               />
             </div>
@@ -280,7 +280,7 @@ const CartPage = () => {
                 type="email"
                 value={formData.email} 
                 onChange={handleInputChange}
-                placeholder="john@example.com"
+                placeholder="yprotik@gmail.com"
                 required
               />
             </div>
@@ -291,7 +291,7 @@ const CartPage = () => {
                 name="phone" 
                 value={formData.phone} 
                 onChange={handleInputChange}
-                placeholder="+1 (555) 123-4567"
+                placeholder="01705610130"
                 required
               />
             </div>
@@ -302,7 +302,7 @@ const CartPage = () => {
                 name="address" 
                 value={formData.address} 
                 onChange={handleInputChange}
-                placeholder="123 Main St, City, State, ZIP"
+                placeholder="City, Area, ZIP"
                 required
               />
             </div>
